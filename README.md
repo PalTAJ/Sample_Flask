@@ -1,2 +1,1 @@
-# GelAl-api
-Rest api for GelAl app
+basic flask api strcuture
