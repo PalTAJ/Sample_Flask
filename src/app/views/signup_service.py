@@ -8,7 +8,6 @@ from ..app import app
 
 @app.route('/signup', methods=['POST', 'GET'])
 def Signup():
-
     return {'Not Ready':200}
 
 

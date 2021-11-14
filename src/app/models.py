@@ -7,7 +7,7 @@
 # from sqlalchemy.dialects.postgresql import JSON
 # from flask_sqlalchemy import SQLAlchemy, BaseQuery
 # # from flask_jwt import jwt_required, current_identity, _jwt_required
-#
+
 from .app import app
 from flask_mongoengine import MongoEngine
 
@@ -74,10 +74,8 @@ class Promotions(db.Document):
     restaurants_id = db.StringField()
     views_counter = db.IntField()
     promotions = db.DictField()
-
     start_date = db.DateTimeField()
     end_date = db.DateTimeField()
-
     promotion_hours= db.DictField()
 
     def to_json(self):

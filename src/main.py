@@ -22,18 +22,6 @@ def run_api():
     )
 
 
-# @cli.command()
-# def add_user():
-#     db.User(name='taj', email='taj@gmail.com').save()
-#     db.User(name='taj saleh', email='tajsaleh@gmail.com').save()
-#     print("done")
-#
-#
-#
-# @cli.command()
-# def search_users():
-#     user = db.User.objects(name="taj").first()
-#     print(user)
 
 
 
